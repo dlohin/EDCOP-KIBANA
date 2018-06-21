@@ -6,7 +6,7 @@ node {
 
 
   def pwd = pwd()
-  def tool_name="kibana"
+  def tool_name="kibanaauth"
   def container_dir = "$pwd/container/"
   def custom_image = "images.kibana"
   def custom_values_url = "http://repos.sealingtech.com/cisco-c240-m5/kibana/values.yaml"
