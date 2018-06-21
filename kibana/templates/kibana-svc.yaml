@@ -7,7 +7,7 @@ metadata:
     app: {{ template "kibana.name" . }}
 spec:
   ports:
-  - name: tcp-5601-5601
+  - name: tcp-8080-8080
     protocol: TCP
     port: 8080
     targetPort: 8080
