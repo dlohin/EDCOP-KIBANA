@@ -43,7 +43,8 @@ spec:
           - --client-secret=5c75e927-8631-4b27-bc50-24cd66d6e224
           - --enable-refresh-tokens=true
           - --encryption-key=MsVRjD36bfAxfBvHUKUjXOTPXaItDThn  # 32 bytes string
-          - --upstream-url=http://127.0.0.1:5601
+          - --redirection-url=https://kibana.physical.edcop.io/
+          - --upstream-url=http://127.0.0.1:5601/app/kibana/
           - --skip-openid-provider-tls-verify=true #needed until we have a PKI strategy
           - --resources=uri=/*
         volumeMounts:
