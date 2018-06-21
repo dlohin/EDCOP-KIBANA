@@ -32,10 +32,6 @@ spec:
         - mountPath: /usr/share/kibana/config/kibana.yml
           subPath: kibana.yml
           name: kibana-config
-            containers:
-      - name: nginx
-        imagePullPolicy: Always
-        image: nginx
       - image: quay.io/gambol99/keycloak-proxy:v2.1.1
         name: proxy
         args:
