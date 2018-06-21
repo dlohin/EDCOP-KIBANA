@@ -41,7 +41,7 @@ spec:
           - --discovery-url=https://auth.physical.edcop.io/auth/realms/kibana
           - --client-id=kibana
           - --client-secret=49633c69-c2a7-44bf-8e6c-6af4d932b9d8
-          - --redirection-url=https://keycloak.physical.edcop.io
+          - --redirection-url=https://auth.physical.edcop.io
           - --enable-refresh-tokens=true
           - --encryption-key=MsVRjD36bfAxfBvHUKUjXOTPXaItDThn  # 32 bytes string
           - --upstream-url=http://127.0.0.1:5601
