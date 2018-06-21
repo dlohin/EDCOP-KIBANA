@@ -40,7 +40,7 @@ spec:
           - --listen=0.0.0.0:8080
           - --discovery-url=https://auth.physical.edcop.io/auth/realms/edcop
           - --client-id=kibana
-          - --client-secret=49633c69-c2a7-44bf-8e6c-6af4d932b9d8
+          - --client-secret=5c75e927-8631-4b27-bc50-24cd66d6e224
           - --redirection-url=https://kibana.physical.edcop.io
           - --enable-refresh-tokens=true
           - --encryption-key=MsVRjD36bfAxfBvHUKUjXOTPXaItDThn  # 32 bytes string
