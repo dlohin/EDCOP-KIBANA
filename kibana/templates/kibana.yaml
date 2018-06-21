@@ -34,11 +34,13 @@ spec:
           name: kibana-config
       - image: quay.io/gambol99/keycloak-proxy:v2.1.1
         name: proxy
+        ports:
+        - containerPort: 8080
         args:
           - --listen=0.0.0.0:8080
           - --discovery-url=https://keycloak.physical.edcop.io/auth/realms/kibana
           - --client-id=kibana
-          - --client-secret=dcca6d49-f4fe-4ae2-8626-ad08e246dfb9
+          - --client-secret=49633c69-c2a7-44bf-8e6c-6af4d932b9d8
           - --redirection-url=https://keycloak.physical.edcop.io
           - --enable-refresh-tokens=true
           - --encryption-key=MsVRjD36bfAxfBvHUKUjXOTPXaItDThn  # 32 bytes string
