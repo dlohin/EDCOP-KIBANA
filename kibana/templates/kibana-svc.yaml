@@ -9,8 +9,8 @@ spec:
   ports:
   - name: tcp-5601-5601
     protocol: TCP
-    port: 5601
-    targetPort: 5601
+    port: 8080
+    targetPort: 8080
   selector:
     app: {{ template "kibana.name" . }}
 

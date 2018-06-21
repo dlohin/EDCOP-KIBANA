@@ -9,4 +9,4 @@ nodeSelector:
   nodetype: master
 ingress:
   # Enter the FQDN of your host
-  host: physical.edcop.io  
+  host: kibana.physical.edcop.io  
