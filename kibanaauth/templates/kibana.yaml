@@ -38,7 +38,7 @@ spec:
         - containerPort: 8080
         args:
           - --listen=0.0.0.0:8080
-          - --discovery-url=https://auth.physical.edcop.io/auth/realms/kibana
+          - --discovery-url=https://auth.physical.edcop.io/auth/realms/edcop
           - --client-id=kibana
           - --client-secret=49633c69-c2a7-44bf-8e6c-6af4d932b9d8
           - --redirection-url=https://kibana.physical.edcop.io
