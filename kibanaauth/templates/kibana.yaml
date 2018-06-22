@@ -47,6 +47,7 @@ spec:
           - --upstream-url=http://127.0.0.1:5601/app/kibana/
           - --skip-openid-provider-tls-verify=true #needed until we have a PKI strategy
           - --resources=uri=/*
+          - --enable-logging=true
         volumeMounts:
         - mountPath: /etc/ssl/certs/
           name: k8s-certs
