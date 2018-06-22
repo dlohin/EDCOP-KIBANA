@@ -17,3 +17,4 @@ data:
     xpack.reporting.enabled: false
     xpack.security.enabled: false
     xpack.monitoring.ui.container.elasticsearch.enabled: true
+    logging.verbose: true
